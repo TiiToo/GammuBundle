@@ -1,20 +1,23 @@
 {
-    "name": "symfonyid/gammu-bundle",
+    "name": "tito/gammu-bundle",
     "type": "symfony-bundle",
     "description": "Interface for Gammu SMS Gateway",
     "keywords": ["gammu", "gammurc", "gammu-smsd", "gammu-smsd-inject", "gammu sms gateway", "sms gateway"],
-    "homepage": "https://github.com/SymfonyId/AdminBundle",
+    "homepage": "https://github.com/TiiToo/",
     "license": "MIT",
     "authors": [
         {
             "name": "Komunitas Symfony Indonesia",
-            "homepage": "https://github.com/SymfonyId/AdminBundle"
+            "homepage": "https://github.com/TiiToo"
         },
         {
             "name": "Muhammad Surya Ihsanuddin",
             "homepage": "http://blog.khodam.org"
         }
     ],
+    "replace": {
+        "tito/gammu-bundle": "dev-master"
+    },
     "require": {
         "php": ">=5.4",
         "symfonyid/admin-bundle": "dev-master",
